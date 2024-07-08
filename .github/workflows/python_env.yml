@@ -2,8 +2,9 @@ name: Python Environment
 
 on:
   # To run manually
-  workflow_dispatch
-
+  workflow_dispatch:
+  schedule:
+    - cron: "21 25 * * * "   # <=== Change this value
 jobs:
   setup:
     runs-on: ubuntu-latest
