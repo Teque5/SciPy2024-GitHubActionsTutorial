@@ -4,7 +4,7 @@ on:
   # To run manually
   workflow_dispatch:
   schedule:
-    - cron: "35 21 * * *"   # <=== Change this value
+    - cron: "45 21 * * *"   # <=== Change this value
 jobs:
   setup:
     runs-on: ubuntu-latest
